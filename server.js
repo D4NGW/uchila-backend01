@@ -1080,4 +1080,8 @@ process.on('SIGINT', () => executarGracefulShutdown('SIGINT'));
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
     console.log(`[Engine v9] Executando sob ID de Instância: ${SERVER_INSTANCE_ID} na porta ${PORT}`);
-});
+console.log("=== ENV DEBUG ===");
+console.log("ENCRYPTION_KEY:", process.env.ENCRYPTION_KEY);
+console.log("LENGTH:", process.env.ENCRYPTION_KEY?.length);
+console.log("=================");
+    });
