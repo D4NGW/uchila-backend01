@@ -63,8 +63,8 @@ const LEASE_UPDATE_INTERVAL_MS = 8000;
 const MAX_WS_PAYLOAD_BYTES = 2000;
 const MAX_ACTIVE_CLIENTS = 200; 
 const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const VERCEL_PREVIEW_REGEX = /^https:\/\/[a-z0-9-]+-uchilabotv9\.vercel\.app$/i;
-const ALLOWED_ORIGINS = ['http://localhost:5500', 'http://127.0.0.1:5500', 'https://uchilabotv9.vercel.app'];
+const VERCEL_PREVIEW_REGEX = /^https:\/\/[a-z0-9-]+-uchilabotprov9\.vercel\.app$/i;
+const ALLOWED_ORIGINS = ['http://localhost:5500', 'http://127.0.0.1:5500', 'https://uchilabotprov9.vercel.app'];
 
 let totalGlobalMongoUpdatesInRam = 0;
 
